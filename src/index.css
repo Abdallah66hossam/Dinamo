@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 100px 4%;
+  background-color: rgb(254, 237, 255);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #cccccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a2a2a2;
+}
+
+@media (max-width: 1024px) {
+  .table .ant-table-content {
+    width: 1000px;
+  }
+}
