@@ -16,7 +16,7 @@
 1. Clone this repo
 ```bash
 git clone https://github.com/Abdallah66hossam/Dinamo-task.git
-cd Dinamo
+cd Dinamo-task
 ```
 2. Install project dependencies
 ```bash
